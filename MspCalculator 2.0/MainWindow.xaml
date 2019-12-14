@@ -1,0 +1,70 @@
+﻿<Controls:MetroWindow x:Class="MspCalculator.MainWindow"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MspCalculator"
+        mc:Ignorable="d"
+        Title="MspCalculator" Height="350" Width="525" KeyDown="MetroWindow_KeyDown" >
+
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button x:Name="Setting" Content="Setting" Click="Setting_Click" />
+            <Button x:Name="Help" Content="Help" Click="Help_Click" />
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="85*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+            <RowDefinition Height="80*"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="Count" Grid.ColumnSpan="3" Content="0" HorizontalAlignment="Left" Height="50" Margin="10,7,0,0" VerticalAlignment="Top" Width="238" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Right" FontSize="26" Grid.Row="1" Grid.Column="2" />
+        <Label x:Name="Ver" Grid.ColumnSpan="5" Content="Msp.Calculator Ver.Stable 2.0" HorizontalAlignment="Left" Height="51" Margin="10,1,0,0" VerticalAlignment="Top" Width="410" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Left" FontSize="24" RenderTransformOrigin="0.502,0.164"/>
+
+        <Button x:Name="Num7" Content="7" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="86" Height="65" FontSize="26" Grid.RowSpan="2" Click="Num7_Click"/>
+        <Button x:Name="Num8" Content="8" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="86" Height="63" Grid.Column="1" FontSize="26" Click="Num8_Click"/>
+        <Button x:Name="Num9" Content="9" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Width="86" Height="65" Grid.Column="2" FontSize="26" Grid.RowSpan="2" Click="Num9_Click"/>
+        <Button x:Name="Num4" Content="4" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="86" Height="62" FontSize="26" Click="Num4_Click"/>
+        <Button x:Name="Num5" Content="5" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="86" Height="61" Grid.Column="1" FontSize="26" Click="Num5_Click"/>
+        <Button x:Name="Num6" Content="6" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="86" Height="64" Grid.Column="2" FontSize="26" Grid.RowSpan="2" Click="Num6_Click"/>
+        <Button x:Name="Num3" Content="3" HorizontalAlignment="Left" Grid.Row="3" Width="86" Grid.Column="2" Margin="0,61,0,0" Grid.RowSpan="2" FontSize="26" Click="Num3_Click"/>
+        <Button x:Name="Num2" Content="2" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="86" Height="64" Grid.Column="1" Margin="0,61,0,0" Grid.RowSpan="2" FontSize="26" Click="Num2_Click"/>
+        <Button x:Name="Num1" Content="1" Grid.Row="3" VerticalAlignment="Top" Height="64" Margin="0,61,0,0" Grid.RowSpan="2" FontSize="26" Click="Num1_Click"/>
+        <Button x:Name="Num0" Content="0" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="86" Height="63" Grid.Column="3" FontSize="26" Margin="0,61,0,0" Grid.RowSpan="2" Click="Num0_Click"/>
+
+        <Button x:Name="Symbol_Dorp" Content="." HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Top" Width="86" Height="61" Grid.Column="5" Margin="0,1,0,0" FontSize="26" Click="Symbol_Dorp_Click"/>
+        <Button x:Name="Symbol_PlusChange" Content="正" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="87" Height="62" FontSize="26" Grid.Column="5" Click="Symbol_PlusChange_Click"/>
+        <Button x:Name="Symbol_MinusChange" Content="负" Grid.Column="5" HorizontalAlignment="Left" Height="63" Grid.Row="2" VerticalAlignment="Top" Width="87" FontSize="26" Click="Symbol_MinusChange_Click"/>
+
+        <Button x:Name="Symbol_Plus" Content="+" Grid.Column="3" HorizontalAlignment="Left" Height="65" Grid.Row="2" VerticalAlignment="Top" Width="87" FontSize="26" Grid.ColumnSpan="2" Grid.RowSpan="2" Click="Symbol_Plus_Click"/>
+        <Button x:Name="Symbol_Minus" Content="-" Grid.Column="4" HorizontalAlignment="Left" Height="64" Grid.Row="2" VerticalAlignment="Top" Width="86" FontSize="26" Grid.ColumnSpan="2" Margin="1,0,0,0" Grid.RowSpan="2" Click="Symbol_Minus_Click"/>
+        <Button x:Name="Symbol_Except" Content="/" Grid.Column="4" HorizontalAlignment="Left" Height="64" Grid.Row="3" VerticalAlignment="Top" Width="86" Margin="0,1,0,0" Grid.RowSpan="2" FontSize="26" Click="Symbol_Except_Click"/>
+        <Button x:Name="Symbol_Multiply" Content="*" Grid.Column="3" HorizontalAlignment="Left" Height="60" Grid.Row="3" VerticalAlignment="Top" Width="86" Margin="0,1,0,0" FontSize="26" Click="Symbol_Multiply_Click"/>
+
+        <Button x:Name="Symbol_C" Content="C" Grid.Column="5" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="86" FontSize="26" Margin="1,0,0,0" Click="Symbol_C_Click"/>
+        <Button x:Name="Symbol_Remainder" Content="%" Grid.Column="4" HorizontalAlignment="Left" Height="63" Grid.Row="3" VerticalAlignment="Top" Width="86" FontSize="26" Margin="0,61,0,0" Grid.RowSpan="2" Click="Symbol_Remainder_Click"/>
+        <Button x:Name="Symbol_EqualTo" Content="=" Grid.Column="5" HorizontalAlignment="Left" Height="63" Grid.Row="4" VerticalAlignment="Top" Width="87" FontSize="26" Click="Symbol_EqualTo_Click" Margin="1,0,-1,0"/>
+
+        <Label x:Name="ResultExport" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Height="50" Margin="0,7,0,0" Grid.Row="1" VerticalAlignment="Top" Width="162" FontSize="26" HorizontalContentAlignment="Right"/>
+
+        <Label x:Name="Text_Result" Content="Result:" HorizontalAlignment="Left" Height="27" Margin="10,57,0,0" VerticalAlignment="Top" Width="66" Grid.RowSpan="2"/>
+        <Label x:Name="Excisoon" Grid.ColumnSpan="2" Content="|" Grid.Column="1" HorizontalAlignment="Left" Height="45" Margin="81,7,0,0" Grid.Row="1" VerticalAlignment="Top" Width="15" FontSize="26"/>
+        <Label x:Name="Text_Count" Content="Count:" Grid.Column="1" HorizontalAlignment="Left" Height="25" Margin="81,57,0,0" VerticalAlignment="Top" Width="66" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Label x:Name="Histroy" Grid.ColumnSpan="3" Content="" Grid.Column="2" HorizontalAlignment="Left" Height="27" Margin="49,57,0,0" VerticalAlignment="Top" Width="170" Grid.RowSpan="2" FontSize="15" HorizontalContentAlignment="Right"/>
+        <Label x:Name="Operator" Content=""  Grid.Column="4" HorizontalAlignment="Left" Height="27" Margin="52,57,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="24" FontSize="16"/>
+    </Grid>
+</Controls:MetroWindow>
