@@ -11,4 +11,10 @@
 + Bugs: SettingWindow and ResultCopyWindow Not yet edited.
 + Download:By oneself compile.
 -----------------------------
+## Version: Stable Edition 2.0
++ BugsRepair: CountQuestion
++ Revise&Add: Application ICO
++ Waste: ResultCopyWindow ( Because some Bug.
++ Download : GitHub Release & By oneself compile.
+-----------------------------
 ##### Towards Perfection Infinite Approach.
