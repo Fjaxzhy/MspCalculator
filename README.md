@@ -16,7 +16,7 @@
 + 界面 UI: MahApps.Metro  使用MahApps.Metro MetroUI包
 + 功能 Function: A Easy Calculator 一个简单的计算器
 + 支持 Support: Keyboard import  键盘输入
-+ 基于 BaseOn: Microsoft WindowsNT 32Bit & 64Bit | Microsoft .NetFramework 4.5
++ 基于 BaseOn: Microsoft WindowsNT 32Bit & 64Bit and Microsoft .NetFramework 4.5
 + 漏洞 Bugs: SettingWindow and ResultCopyWindow Not yet edited. 尚未编辑
 + 下载 Download: By oneself compile. 自行编译
 -----------------------------
