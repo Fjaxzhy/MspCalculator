@@ -1,6 +1,7 @@
 # MspCalculator
-### 这是一个C# WPF程序项目
+### 这是一个C# WPF开源程序项目
 ### This is a C-Sharp Project for WPF Application.
+### 遵守MIT-Linense开源协议
 ##### 支持和更新请关注 : [MicTech Studio Blog]:Https://mictechstudio.wixsite.com/blog
 ##### Support & Update : [MspCalculatr GitHubIO]:Https://fjaxzhy.github.io/MspCalculator/
 
