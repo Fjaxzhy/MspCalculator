@@ -2,7 +2,7 @@
 ### 这是一个C# WPF程序项目
 ### This is a C-Sharp Project for WPF Application.
 ##### 支持和更新请关注 : [MicTech Studio Blog]:Https://mictechstudio.wixsite.com/blog
-##### Support & Update : [MspCalculatr GitHubIO]:https://fjaxzhy.github.io/MspCalculator/
+##### Support & Update : [MspCalculatr GitHubIO]:Https://fjaxzhy.github.io/MspCalculator/
 
 # 更新日志 Update Log
 
