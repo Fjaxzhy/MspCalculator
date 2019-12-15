@@ -10,7 +10,7 @@
 + 修复 BugsRepair: CountQuestion 计算问题修复
 + 增加 Revise&Add: Application ICO  增加软件图标
 + 废弃 Waste:      ResultCopyWindow ( Because some Bug.  因为一些Bug 移除ResultCopy窗体.
-+ 下载 Download :  GitHub Release & By oneself compile. GitHUb直接下载或自行编译.
++ 下载 Download :  GitHub Release & By oneself compile. GitHub直接下载或自行编译.
 -----------------------------
 ## Version: Stable Edition 1.0 正式版
 + 界面 UI:         MahApps.Metro  使用MahApps.Metro MetroUI包
