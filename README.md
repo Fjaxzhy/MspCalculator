@@ -8,12 +8,14 @@
 # 更新日志 Update Log
 
 ## Version: Stable Edition 2.0 正式版 
+### 2019.12.14
 + 修复 BugsRepair: CountQuestion 计算问题修复
 + 增加 Revise&Add: Application ICO  增加软件图标
 + 废弃 Waste: ResultCopyWindow ( Because some Bug.  因为一些Bug 移除ResultCopy窗体.
 + 下载 Download : GitHub Release & By oneself compile. GitHub直接下载或自行编译.
 
 ## Version: Stable Edition 1.0 正式版
+### 2019.12.06
 + 界面 UI: MahApps.Metro  使用MahApps.Metro MetroUI包
 + 功能 Function: A Easy Calculator 一个简单的计算器
 + 支持 Support: Keyboard import  键盘输入
