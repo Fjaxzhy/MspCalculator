@@ -1,5 +1,4 @@
 # MspCalculator
-
 ### 这是一个C# WPF开源程序项目
 ### This is a C-Sharp Project for WPF Application.
 ### 遵守MIT-Linense开源协议
