@@ -2,8 +2,8 @@
 ### 这是一个C# WPF开源程序项目
 ### This is a C-Sharp Project for WPF Application.
 ### 遵守MIT-Linense开源协议
-##### 支持和更新请关注 : [MicTech Studio Blog]:Https://mictechstudio.wixsite.com/blog
-##### Support & Update : [MspCalculatr GitHubIO]:Https://fjaxzhy.github.io/MspCalculator/
+##### 支持和更新请关注 : [KaguraYayoi Blog]:Https://kagurayayoi.top/
+##### Support & Update : [MspCalculatr Page]:Https://kagurayayoi.top/MspCalculator/
 ---
 # 更新日志 Update Log
 ---
@@ -23,5 +23,5 @@
 + 漏洞 Bugs: SettingWindow and ResultCopyWindow Not yet edited. 尚未编辑
 + 下载 Download: By oneself compile. 自行编译
 ---
-##### Copyright (C) 2019 Fjaxzhy all rights reserved.
+##### Copyright (C) 2019-2020 KaguraYayoi all rights reserved.
 ##### Towards Perfection Infinite Approach.
